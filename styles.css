@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    /* COLORS */
+    --color-white: #FFFFFF;
+    --color-slate-900:#48556A;
+    --color-slate-500: #6E8098;
+    --color-slate-400: #9DAEC2;
+    --color-slate-200: #ECF2F8;
+
+    /* SPACING */
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-700: 56px;
+    --spacing-800: 64px;
+    --spacing-1300: 104px;
+    --spacing-2000: 160px;
+    
+}
+/* txt-preset-1-bld  */
+h1 {
+    color: var(--color-slate-900, #133041);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 26px */
+    letter-spacing: 0.25px;
+}
+/* txt-preset-2-medium */
+p {
+    color: var(--color-slate-900, #133041);
+    font-family: Manrope;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: 0.016px;
+}
+/* txt-preset-2-bold */
+.author-name {
+    color: var(--color-slate-900, #133041);
+    font-family: Manrope;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: 0.016px;
+}
+/* txt-preset-3 */
+.date-formatting {
+    color: var(--color-slate-900, #133041);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: 3.25px;
+    text-transform: uppercase;
+    font-family: Manrope;
+}
+
+body {
+    height: 100vh;
+}
+
+
+
+
+/* CARD */
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-400);
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-600);
+    padd
+}
+
+
+
+/* IMAGE */
+
+
+
+
+/* MAIN SECTION */
+
+
+
+/* AUTHOR SECTION / FOOTER */
+
+
+
+/* SHARE COMPONENT */
