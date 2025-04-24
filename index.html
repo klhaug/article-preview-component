@@ -11,7 +11,7 @@
 </head>
 <body>
   <article class="card">
-    <img src="./images/drawers.jpg" alt="green drawer in front of brick wall with a flower on it">
+    <img class="hero-img" src="./images/drawers.jpg" alt="green drawer in front of brick wall with a flower on it">
     <div class="content-container">
       <section class="text-container">
         <h1>
@@ -24,15 +24,33 @@
           to help you make any room feel complete.
         </p>
       </section>
-      <div class="author-container">
-        <img src="./images/avatar-michelle.jpg" alt="profile img of a woman">
-        <div class="author-text-container">
-          <p class="author-name">Michelle Appleton</p>
-          <p class="date-formatting">28 Jun 2020</p>
+      <div class="author-container hidden">
+        <div class="author-img-text-wrapper">
+          <img class="profile-pic" src="./images/avatar-michelle.jpg" alt="profile img of a woman">
+          <div class="author-text-container">
+            <p class="author-name">Michelle Appleton</p>
+            <p class="date-formatting">28 Jun 2020</p>
+          </div>
         </div>
-        <img id="share-icon" src="./images/icon-share.svg" alt="share-icon">
+        <div id="share-icon-container">
+          <svg id="share-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
       </div>
     </div>
+    <footer class="share-component-container">
+      <div class="text-logo-container">
+        <p class="share-text">Share</p>
+        <div class="share-icon-container">
+          <img class ="share-icon" src="./images/icon-facebook.svg" alt="">
+          <img class ="share-icon" src="./images/icon-twitter.svg" alt="">
+          <img class ="share-icon" src="./images/icon-pinterest.svg" alt="">
+        </div>
+      </div>
+      <div id="share-icon-container">
+        <svg id="share-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#ffffff" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+    </div>
+    </footer>
+    </div>
+   
   </article>
 <script src="script.js"></script>
 </body>
